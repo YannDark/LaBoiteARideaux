@@ -1,0 +1,36 @@
+body{
+	background-color: rgb(240, 235, 194);	
+}
+
+#header {
+	background 	: url('../images/css/bg_header.jpg') repeat-x;
+	height		: 200px;
+}
+
+#header > h3 {
+	color 		: white;
+	font-size	: 5em;
+}
+
+#myNavbar {
+	background 	: url('../images/css/bg_menu.png');
+	border 		: solid 2px rgb(196, 188, 150);
+}
+
+.navbar-default, .little_margetop {
+	margin-top 	: 1%;	
+}
+.navbar-default .navbar-nav > li:actif {
+  background-color: #00a950;
+  color: #000000;
+}
+
+.border_brown {
+	border 		: solid 2px rgb(196, 188, 150);
+}
+
+
+#footer {
+	margin-top	: 2%;
+	border-top	: solid 2px  rgb(196, 188, 150);
+}
